@@ -309,6 +309,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:autovacuum_message_attachment.field_mail_thread_phone__assigned_attachment_ids
 #: model:ir.model.fields,field_description:autovacuum_message_attachment.field_mail_tracking_value__assigned_attachment_ids
 #: model:ir.model.fields,field_description:autovacuum_message_attachment.field_mail_wizard_invite__assigned_attachment_ids
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_nsca_check__assigned_attachment_ids
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_nsca_server__assigned_attachment_ids
 #: model:ir.model.fields,field_description:autovacuum_message_attachment.field_payment_icon__assigned_attachment_ids
 #: model:ir.model.fields,field_description:autovacuum_message_attachment.field_payment_link_wizard__assigned_attachment_ids
 #: model:ir.model.fields,field_description:autovacuum_message_attachment.field_payment_provider__assigned_attachment_ids
@@ -348,6 +350,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:autovacuum_message_attachment.field_queue_job__assigned_attachment_ids
 #: model:ir.model.fields,field_description:autovacuum_message_attachment.field_queue_job_channel__assigned_attachment_ids
 #: model:ir.model.fields,field_description:autovacuum_message_attachment.field_queue_job_function__assigned_attachment_ids
+#: model:ir.model.fields,field_description:autovacuum_message_attachment.field_queue_job_lock__assigned_attachment_ids
 #: model:ir.model.fields,field_description:autovacuum_message_attachment.field_queue_jobs_to_cancelled__assigned_attachment_ids
 #: model:ir.model.fields,field_description:autovacuum_message_attachment.field_queue_jobs_to_done__assigned_attachment_ids
 #: model:ir.model.fields,field_description:autovacuum_message_attachment.field_queue_requeue_job__assigned_attachment_ids

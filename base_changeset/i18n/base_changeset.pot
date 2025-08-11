@@ -354,6 +354,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_changeset.field_mail_thread_phone__changeset_change_ids
 #: model:ir.model.fields,field_description:base_changeset.field_mail_tracking_value__changeset_change_ids
 #: model:ir.model.fields,field_description:base_changeset.field_mail_wizard_invite__changeset_change_ids
+#: model:ir.model.fields,field_description:base_changeset.field_nsca_check__changeset_change_ids
+#: model:ir.model.fields,field_description:base_changeset.field_nsca_server__changeset_change_ids
 #: model:ir.model.fields,field_description:base_changeset.field_payment_icon__changeset_change_ids
 #: model:ir.model.fields,field_description:base_changeset.field_payment_link_wizard__changeset_change_ids
 #: model:ir.model.fields,field_description:base_changeset.field_payment_provider__changeset_change_ids
@@ -393,6 +395,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_changeset.field_queue_job__changeset_change_ids
 #: model:ir.model.fields,field_description:base_changeset.field_queue_job_channel__changeset_change_ids
 #: model:ir.model.fields,field_description:base_changeset.field_queue_job_function__changeset_change_ids
+#: model:ir.model.fields,field_description:base_changeset.field_queue_job_lock__changeset_change_ids
 #: model:ir.model.fields,field_description:base_changeset.field_queue_jobs_to_cancelled__changeset_change_ids
 #: model:ir.model.fields,field_description:base_changeset.field_queue_jobs_to_done__changeset_change_ids
 #: model:ir.model.fields,field_description:base_changeset.field_queue_requeue_job__changeset_change_ids
@@ -796,6 +799,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_changeset.field_mail_thread_phone__changeset_ids
 #: model:ir.model.fields,field_description:base_changeset.field_mail_tracking_value__changeset_ids
 #: model:ir.model.fields,field_description:base_changeset.field_mail_wizard_invite__changeset_ids
+#: model:ir.model.fields,field_description:base_changeset.field_nsca_check__changeset_ids
+#: model:ir.model.fields,field_description:base_changeset.field_nsca_server__changeset_ids
 #: model:ir.model.fields,field_description:base_changeset.field_payment_icon__changeset_ids
 #: model:ir.model.fields,field_description:base_changeset.field_payment_link_wizard__changeset_ids
 #: model:ir.model.fields,field_description:base_changeset.field_payment_provider__changeset_ids
@@ -835,6 +840,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_changeset.field_queue_job__changeset_ids
 #: model:ir.model.fields,field_description:base_changeset.field_queue_job_channel__changeset_ids
 #: model:ir.model.fields,field_description:base_changeset.field_queue_job_function__changeset_ids
+#: model:ir.model.fields,field_description:base_changeset.field_queue_job_lock__changeset_ids
 #: model:ir.model.fields,field_description:base_changeset.field_queue_jobs_to_cancelled__changeset_ids
 #: model:ir.model.fields,field_description:base_changeset.field_queue_jobs_to_done__changeset_ids
 #: model:ir.model.fields,field_description:base_changeset.field_queue_requeue_job__changeset_ids
@@ -1225,6 +1231,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_changeset.field_mail_thread_phone__count_changesets
 #: model:ir.model.fields,field_description:base_changeset.field_mail_tracking_value__count_changesets
 #: model:ir.model.fields,field_description:base_changeset.field_mail_wizard_invite__count_changesets
+#: model:ir.model.fields,field_description:base_changeset.field_nsca_check__count_changesets
+#: model:ir.model.fields,field_description:base_changeset.field_nsca_server__count_changesets
 #: model:ir.model.fields,field_description:base_changeset.field_payment_icon__count_changesets
 #: model:ir.model.fields,field_description:base_changeset.field_payment_link_wizard__count_changesets
 #: model:ir.model.fields,field_description:base_changeset.field_payment_provider__count_changesets
@@ -1264,6 +1272,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_changeset.field_queue_job__count_changesets
 #: model:ir.model.fields,field_description:base_changeset.field_queue_job_channel__count_changesets
 #: model:ir.model.fields,field_description:base_changeset.field_queue_job_function__count_changesets
+#: model:ir.model.fields,field_description:base_changeset.field_queue_job_lock__count_changesets
 #: model:ir.model.fields,field_description:base_changeset.field_queue_jobs_to_cancelled__count_changesets
 #: model:ir.model.fields,field_description:base_changeset.field_queue_jobs_to_done__count_changesets
 #: model:ir.model.fields,field_description:base_changeset.field_queue_requeue_job__count_changesets
@@ -1647,6 +1656,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_changeset.field_mail_thread_phone__count_pending_changeset_changes
 #: model:ir.model.fields,field_description:base_changeset.field_mail_tracking_value__count_pending_changeset_changes
 #: model:ir.model.fields,field_description:base_changeset.field_mail_wizard_invite__count_pending_changeset_changes
+#: model:ir.model.fields,field_description:base_changeset.field_nsca_check__count_pending_changeset_changes
+#: model:ir.model.fields,field_description:base_changeset.field_nsca_server__count_pending_changeset_changes
 #: model:ir.model.fields,field_description:base_changeset.field_payment_icon__count_pending_changeset_changes
 #: model:ir.model.fields,field_description:base_changeset.field_payment_link_wizard__count_pending_changeset_changes
 #: model:ir.model.fields,field_description:base_changeset.field_payment_provider__count_pending_changeset_changes
@@ -1686,6 +1697,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_changeset.field_queue_job__count_pending_changeset_changes
 #: model:ir.model.fields,field_description:base_changeset.field_queue_job_channel__count_pending_changeset_changes
 #: model:ir.model.fields,field_description:base_changeset.field_queue_job_function__count_pending_changeset_changes
+#: model:ir.model.fields,field_description:base_changeset.field_queue_job_lock__count_pending_changeset_changes
 #: model:ir.model.fields,field_description:base_changeset.field_queue_jobs_to_cancelled__count_pending_changeset_changes
 #: model:ir.model.fields,field_description:base_changeset.field_queue_jobs_to_done__count_pending_changeset_changes
 #: model:ir.model.fields,field_description:base_changeset.field_queue_requeue_job__count_pending_changeset_changes
@@ -2069,6 +2081,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_changeset.field_mail_thread_phone__count_pending_changesets
 #: model:ir.model.fields,field_description:base_changeset.field_mail_tracking_value__count_pending_changesets
 #: model:ir.model.fields,field_description:base_changeset.field_mail_wizard_invite__count_pending_changesets
+#: model:ir.model.fields,field_description:base_changeset.field_nsca_check__count_pending_changesets
+#: model:ir.model.fields,field_description:base_changeset.field_nsca_server__count_pending_changesets
 #: model:ir.model.fields,field_description:base_changeset.field_payment_icon__count_pending_changesets
 #: model:ir.model.fields,field_description:base_changeset.field_payment_link_wizard__count_pending_changesets
 #: model:ir.model.fields,field_description:base_changeset.field_payment_provider__count_pending_changesets
@@ -2108,6 +2122,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_changeset.field_queue_job__count_pending_changesets
 #: model:ir.model.fields,field_description:base_changeset.field_queue_job_channel__count_pending_changesets
 #: model:ir.model.fields,field_description:base_changeset.field_queue_job_function__count_pending_changesets
+#: model:ir.model.fields,field_description:base_changeset.field_queue_job_lock__count_pending_changesets
 #: model:ir.model.fields,field_description:base_changeset.field_queue_jobs_to_cancelled__count_pending_changesets
 #: model:ir.model.fields,field_description:base_changeset.field_queue_jobs_to_done__count_pending_changesets
 #: model:ir.model.fields,field_description:base_changeset.field_queue_requeue_job__count_pending_changesets
@@ -2862,6 +2877,8 @@ msgstr ""
 #: model:ir.model.fields,help:base_changeset.field_mail_thread_phone__count_pending_changeset_changes
 #: model:ir.model.fields,help:base_changeset.field_mail_tracking_value__count_pending_changeset_changes
 #: model:ir.model.fields,help:base_changeset.field_mail_wizard_invite__count_pending_changeset_changes
+#: model:ir.model.fields,help:base_changeset.field_nsca_check__count_pending_changeset_changes
+#: model:ir.model.fields,help:base_changeset.field_nsca_server__count_pending_changeset_changes
 #: model:ir.model.fields,help:base_changeset.field_payment_icon__count_pending_changeset_changes
 #: model:ir.model.fields,help:base_changeset.field_payment_link_wizard__count_pending_changeset_changes
 #: model:ir.model.fields,help:base_changeset.field_payment_provider__count_pending_changeset_changes
@@ -2901,6 +2918,7 @@ msgstr ""
 #: model:ir.model.fields,help:base_changeset.field_queue_job__count_pending_changeset_changes
 #: model:ir.model.fields,help:base_changeset.field_queue_job_channel__count_pending_changeset_changes
 #: model:ir.model.fields,help:base_changeset.field_queue_job_function__count_pending_changeset_changes
+#: model:ir.model.fields,help:base_changeset.field_queue_job_lock__count_pending_changeset_changes
 #: model:ir.model.fields,help:base_changeset.field_queue_jobs_to_cancelled__count_pending_changeset_changes
 #: model:ir.model.fields,help:base_changeset.field_queue_jobs_to_done__count_pending_changeset_changes
 #: model:ir.model.fields,help:base_changeset.field_queue_requeue_job__count_pending_changeset_changes
@@ -3284,6 +3302,8 @@ msgstr ""
 #: model:ir.model.fields,help:base_changeset.field_mail_thread_phone__count_pending_changesets
 #: model:ir.model.fields,help:base_changeset.field_mail_tracking_value__count_pending_changesets
 #: model:ir.model.fields,help:base_changeset.field_mail_wizard_invite__count_pending_changesets
+#: model:ir.model.fields,help:base_changeset.field_nsca_check__count_pending_changesets
+#: model:ir.model.fields,help:base_changeset.field_nsca_server__count_pending_changesets
 #: model:ir.model.fields,help:base_changeset.field_payment_icon__count_pending_changesets
 #: model:ir.model.fields,help:base_changeset.field_payment_link_wizard__count_pending_changesets
 #: model:ir.model.fields,help:base_changeset.field_payment_provider__count_pending_changesets
@@ -3323,6 +3343,7 @@ msgstr ""
 #: model:ir.model.fields,help:base_changeset.field_queue_job__count_pending_changesets
 #: model:ir.model.fields,help:base_changeset.field_queue_job_channel__count_pending_changesets
 #: model:ir.model.fields,help:base_changeset.field_queue_job_function__count_pending_changesets
+#: model:ir.model.fields,help:base_changeset.field_queue_job_lock__count_pending_changesets
 #: model:ir.model.fields,help:base_changeset.field_queue_jobs_to_cancelled__count_pending_changesets
 #: model:ir.model.fields,help:base_changeset.field_queue_jobs_to_done__count_pending_changesets
 #: model:ir.model.fields,help:base_changeset.field_queue_requeue_job__count_pending_changesets
@@ -3706,6 +3727,8 @@ msgstr ""
 #: model:ir.model.fields,help:base_changeset.field_mail_thread_phone__count_changesets
 #: model:ir.model.fields,help:base_changeset.field_mail_tracking_value__count_changesets
 #: model:ir.model.fields,help:base_changeset.field_mail_wizard_invite__count_changesets
+#: model:ir.model.fields,help:base_changeset.field_nsca_check__count_changesets
+#: model:ir.model.fields,help:base_changeset.field_nsca_server__count_changesets
 #: model:ir.model.fields,help:base_changeset.field_payment_icon__count_changesets
 #: model:ir.model.fields,help:base_changeset.field_payment_link_wizard__count_changesets
 #: model:ir.model.fields,help:base_changeset.field_payment_provider__count_changesets
@@ -3745,6 +3768,7 @@ msgstr ""
 #: model:ir.model.fields,help:base_changeset.field_queue_job__count_changesets
 #: model:ir.model.fields,help:base_changeset.field_queue_job_channel__count_changesets
 #: model:ir.model.fields,help:base_changeset.field_queue_job_function__count_changesets
+#: model:ir.model.fields,help:base_changeset.field_queue_job_lock__count_changesets
 #: model:ir.model.fields,help:base_changeset.field_queue_jobs_to_cancelled__count_changesets
 #: model:ir.model.fields,help:base_changeset.field_queue_jobs_to_done__count_changesets
 #: model:ir.model.fields,help:base_changeset.field_queue_requeue_job__count_changesets
@@ -4172,6 +4196,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_changeset.field_mail_thread_phone__user_can_see_changeset
 #: model:ir.model.fields,field_description:base_changeset.field_mail_tracking_value__user_can_see_changeset
 #: model:ir.model.fields,field_description:base_changeset.field_mail_wizard_invite__user_can_see_changeset
+#: model:ir.model.fields,field_description:base_changeset.field_nsca_check__user_can_see_changeset
+#: model:ir.model.fields,field_description:base_changeset.field_nsca_server__user_can_see_changeset
 #: model:ir.model.fields,field_description:base_changeset.field_payment_icon__user_can_see_changeset
 #: model:ir.model.fields,field_description:base_changeset.field_payment_link_wizard__user_can_see_changeset
 #: model:ir.model.fields,field_description:base_changeset.field_payment_provider__user_can_see_changeset
@@ -4211,6 +4237,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_changeset.field_queue_job__user_can_see_changeset
 #: model:ir.model.fields,field_description:base_changeset.field_queue_job_channel__user_can_see_changeset
 #: model:ir.model.fields,field_description:base_changeset.field_queue_job_function__user_can_see_changeset
+#: model:ir.model.fields,field_description:base_changeset.field_queue_job_lock__user_can_see_changeset
 #: model:ir.model.fields,field_description:base_changeset.field_queue_jobs_to_cancelled__user_can_see_changeset
 #: model:ir.model.fields,field_description:base_changeset.field_queue_jobs_to_done__user_can_see_changeset
 #: model:ir.model.fields,field_description:base_changeset.field_queue_requeue_job__user_can_see_changeset
