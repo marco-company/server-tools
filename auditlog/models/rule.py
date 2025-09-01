@@ -514,8 +514,16 @@ class AuditlogRule(models.Model):
         auditlog_rule = self.env["auditlog.rule"].search([("model_id", "=", model_id)])
         fields_to_exclude = auditlog_rule.fields_to_exclude_ids.mapped("name")
         for res_id in res_ids:
-            name = model_model.browse(res_id).name_get()
-            res_name = name and name[0] and name[0][1]
+            # Safeguard against deleted records
+            rec = model_model.browse(res_id)
+            if rec.exists():
+                try:
+                    pairs = rec.name_get()
+                    res_name = pairs and pairs[0] and pairs[0][1]
+                except Exception:
+                    res_name = _("exception in name_get()")
+            else:
+                res_name = _("record no longer exists")
             vals = {
                 "name": res_name,
                 "model_id": model_id,

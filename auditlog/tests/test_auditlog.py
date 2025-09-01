@@ -259,6 +259,28 @@ class AuditlogCommon(object):
             1,
         )
 
+    def test_log_name_when_unlinked_twice(self):
+        self.groups_rule.subscribe()
+        auditlog_log = self.env["auditlog.log"]
+        grp = self.env["res.groups"].create({"name": "auditlog_deleted_fallback"})
+        rid = grp.id
+        # unlink twice
+        grp.unlink()
+        grp.unlink()
+        # Find the latest unlink record for auditlog.log
+        log = auditlog_log.search(
+            [
+                ("model_id", "=", self.groups_model_id),
+                ("method", "=", "unlink"),
+                ("res_id", "=", rid),
+            ],
+            order="id desc",
+            limit=1,
+        )
+        self.assertTrue(log)
+        self.assertNotEqual(log.name, "auditlog_deleted_fallback")
+        self.assertEqual(log.name, "record no longer exists")
+
 
 class TestAuditlogFull(TransactionCase, AuditlogCommon):
     def setUp(self):
