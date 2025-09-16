@@ -188,8 +188,8 @@ msgid ""
 "Fast log: only log the changes made through the create and write operations "
 "(less information, but it is faster)"
 msgstr ""
-"Log completo: verifica differenze tra i dati prima e dopo l'operazione ("
-"registra più info come campi calcolati che sono stati aggiornati, ma è più "
+"Log completo: verifica differenze tra i dati prima e dopo l'operazione "
+"(registra più info come campi calcolati che sono stati aggiornati, ma è più "
 "lento)\n"
 "Log rapido: registra solo le modifiche fatte tramite le operazioni crea e "
 "scrivi (meno info, ma più veloce)"
@@ -611,6 +611,20 @@ msgid "View logs"
 msgstr "Visualizza log"
 
 #. module: auditlog
+#. odoo-python
+#: code:addons/auditlog/models/rule.py:0
+#, python-format
+msgid "exception in name_get()"
+msgstr ""
+
+#. module: auditlog
 #: model:ir.model.fields,help:auditlog.field_auditlog_rule__user_ids
 msgid "if  User is not added then it will applicable for all users"
 msgstr "se l'utente non è aggiunto, sarà applicabile per tutti gli utenti"
+
+#. module: auditlog
+#. odoo-python
+#: code:addons/auditlog/models/rule.py:0
+#, python-format
+msgid "record no longer exists"
+msgstr ""
