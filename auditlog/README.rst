@@ -113,6 +113,7 @@ Contributors
 * Hardik Suthar <hsuthar@opensourceintegrators.com>
 * Kitti U. <kittiu@ecosoft.co.th>
 * Bogdan Valentin Gabor <valentin.gabor@bt-group.com>
+* Dennis Sluijk <d.sluijk@onestein.nl>
 
 Other credits
 ~~~~~~~~~~~~~
