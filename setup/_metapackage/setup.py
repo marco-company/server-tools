@@ -26,6 +26,7 @@ setuptools.setup(
         'odoo-addon-base_import_default_enable_tracking>=16.0dev,<16.1dev',
         'odoo-addon-base_import_odoo>=16.0dev,<16.1dev',
         'odoo-addon-base_m2m_custom_field>=16.0dev,<16.1dev',
+        'odoo-addon-base_model_restrict_update>=16.0dev,<16.1dev',
         'odoo-addon-base_multi_image>=16.0dev,<16.1dev',
         'odoo-addon-base_name_search_improved>=16.0dev,<16.1dev',
         'odoo-addon-base_partition>=16.0dev,<16.1dev',
