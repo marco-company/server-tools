@@ -26,7 +26,7 @@
         "data/ir_module_type_rule.xml",
     ],
     "external_dependencies": {
-        "python": ["pygount==1.4.0"],
+        "python": ["pygount"],
     },
     "installable": True,
 }
