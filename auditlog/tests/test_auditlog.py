@@ -371,8 +371,7 @@ class TestAuditlogFastWriteEmptyValue(AuditLogRuleCommon):
         )
         cls.auditlog_rule.subscribe()
 
-    def test_when_removing_field_value_a_log_line_is_created(self):
-        self.test_record.write({"phone": False})
+    def assert_has_one_log_line_with_empty_values(self):
         logs = self.env["auditlog.log"].search(
             [
                 ("res_id", "=", self.test_record.id),
@@ -389,6 +388,14 @@ class TestAuditlogFastWriteEmptyValue(AuditLogRuleCommon):
         self.assertFalse(log_lines[0].old_value_text)
         self.assertFalse(log_lines[0].new_value)
         self.assertFalse(log_lines[0].new_value_text)
+
+    def test_when_removing_field_value_a_log_line_is_created(self):
+        self.test_record.write({"phone": False})
+        self.assert_has_one_log_line_with_empty_values()
+
+    def test_when_using_none_field_value_a_log_line_is_created(self):
+        self.test_record.write({"phone": None})
+        self.assert_has_one_log_line_with_empty_values()
 
 
 class TestFieldRemoval(AuditLogRuleCommon):
