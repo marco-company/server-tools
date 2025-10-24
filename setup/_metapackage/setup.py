@@ -49,6 +49,7 @@ setuptools.setup(
         'odoo-addon-fetchmail_attach_from_folder>=16.0dev,<16.1dev',
         'odoo-addon-fetchmail_notify_error_to_sender>=16.0dev,<16.1dev',
         'odoo-addon-fetchmail_notify_error_to_sender_test>=16.0dev,<16.1dev',
+        'odoo-addon-field_vector>=16.0dev,<16.1dev',
         'odoo-addon-html_image_url_extractor>=16.0dev,<16.1dev',
         'odoo-addon-html_text>=16.0dev,<16.1dev',
         'odoo-addon-iap_alternative_provider>=16.0dev,<16.1dev',
