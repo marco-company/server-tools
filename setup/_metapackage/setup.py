@@ -57,6 +57,7 @@ setuptools.setup(
         'odoo-addon-jsonifier>=16.0dev,<16.1dev',
         'odoo-addon-letsencrypt>=16.0dev,<16.1dev',
         'odoo-addon-mail_cleanup>=16.0dev,<16.1dev',
+        'odoo-addon-mail_template_attachment_i18n>=16.0dev,<16.1dev',
         'odoo-addon-module_analysis>=16.0dev,<16.1dev',
         'odoo-addon-module_auto_update>=16.0dev,<16.1dev',
         'odoo-addon-module_change_auto_install>=16.0dev,<16.1dev',

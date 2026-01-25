@@ -70,6 +70,7 @@ addon | version | maintainers | summary
 [jsonifier](jsonifier/) | 16.0.0.1.0 |  | JSON-ify data for all models
 [letsencrypt](letsencrypt/) | 16.0.1.1.1 | <a href='https://github.com/hbrunn'><img src='https://github.com/hbrunn.png' width='32' height='32' style='border-radius:50%;' alt='hbrunn'/></a> | Request SSL certificates from letsencrypt.org
 [mail_cleanup](mail_cleanup/) | 16.0.1.0.0 |  | Mark as read or delete mails after a set time
+[mail_template_attachment_i18n](mail_template_attachment_i18n/) | 16.0.1.0.0 |  | Set language specific attachments on mail templates.
 [module_analysis](module_analysis/) | 16.0.1.0.5 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Add analysis tools regarding installed modules to know which installed modules comes from Odoo Core, OCA, or are custom modules
 [module_auto_update](module_auto_update/) | 16.0.1.1.0 |  | Automatically update Odoo modules
 [module_change_auto_install](module_change_auto_install/) | 16.0.1.0.2 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Customize auto installables modules by configuration
