@@ -72,7 +72,7 @@ addon | version | maintainers | summary
 [module_analysis](module_analysis/) | 16.0.1.0.5 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Add analysis tools regarding installed modules to know which installed modules comes from Odoo Core, OCA, or are custom modules
 [module_auto_update](module_auto_update/) | 16.0.1.0.2 |  | Automatically update Odoo modules
 [module_change_auto_install](module_change_auto_install/) | 16.0.1.0.2 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Customize auto installables modules by configuration
-[nsca_client](nsca_client/) | 16.0.1.0.1 |  | Send passive alerts to monitor your Odoo application.
+[nsca_client](nsca_client/) | 16.0.1.0.2 |  | Send passive alerts to monitor your Odoo application.
 [odoo_test_xmlrunner](odoo_test_xmlrunner/) | 16.0.1.0.1 |  | This module override Odoo testing method to run them with xmlrunner tool.
 [onchange_helper](onchange_helper/) | 16.0.1.0.0 |  | Technical module that ease execution of onchange in Python code
 [postgres_vacuum](postgres_vacuum/) | 16.0.1.0.0 |  | Vacuum or analyze Odoo's database tables
