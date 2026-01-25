@@ -77,6 +77,14 @@ in an Odoo shell session:
 
   env['ir.module.module'].upgrade_changed_checksum()
 
+For integration in toolchains the upgrade mechanism can also be invoked using the Odoo cli command ``auto_update``. The `--addons-path=` is required as first argument:
+
+.. code-block:: bash
+
+  odoo-bin --addons-path=... auto_update -d odoo
+  # or
+  odoo-bin --addons-path=... auto_update -c path/to/odoo.cfg
+
 Bug Tracker
 ===========
 
