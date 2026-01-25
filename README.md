@@ -71,7 +71,7 @@ addon | version | maintainers | summary
 [letsencrypt](letsencrypt/) | 16.0.1.1.1 | <a href='https://github.com/hbrunn'><img src='https://github.com/hbrunn.png' width='32' height='32' style='border-radius:50%;' alt='hbrunn'/></a> | Request SSL certificates from letsencrypt.org
 [mail_cleanup](mail_cleanup/) | 16.0.1.0.0 |  | Mark as read or delete mails after a set time
 [module_analysis](module_analysis/) | 16.0.1.0.5 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Add analysis tools regarding installed modules to know which installed modules comes from Odoo Core, OCA, or are custom modules
-[module_auto_update](module_auto_update/) | 16.0.1.0.2 |  | Automatically update Odoo modules
+[module_auto_update](module_auto_update/) | 16.0.1.1.0 |  | Automatically update Odoo modules
 [module_change_auto_install](module_change_auto_install/) | 16.0.1.0.2 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Customize auto installables modules by configuration
 [nsca_client](nsca_client/) | 16.0.1.0.2 |  | Send passive alerts to monitor your Odoo application.
 [odoo_test_xmlrunner](odoo_test_xmlrunner/) | 16.0.1.0.1 |  | This module override Odoo testing method to run them with xmlrunner tool.
