@@ -14,13 +14,7 @@
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": [
-        "base",
-        "mail",
-    ],
-    "external_dependencies": {
-        "python": ["odoo_test_helper"],
-    },
+    "depends": ["mail"],
     "data": [
         "views/ir_model_fields.xml",
         "views/ir_model.xml",
