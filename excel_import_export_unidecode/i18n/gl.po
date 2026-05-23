@@ -6,20 +6,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2026-05-23 16:35+0000\n"
+"Last-Translator: Pablo Castelo <pablocv@gmx.es>\n"
 "Language-Team: none\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #. module: excel_import_export_unidecode
 #: model:ir.model.fields,field_description:excel_import_export_unidecode.field_xlsx_export__assigned_attachment_ids
 #: model:ir.model.fields,field_description:excel_import_export_unidecode.field_xlsx_template__assigned_attachment_ids
 #: model:ir.model.fields,field_description:excel_import_export_unidecode.field_xlsx_template_export__assigned_attachment_ids
 msgid "Assigned Attachments"
-msgstr ""
+msgstr "Arquivos Adxuntos Asignados"
 
 #. module: excel_import_export_unidecode
 #: model:ir.model.fields,field_description:excel_import_export_unidecode.field_xlsx_export__changeset_change_ids
@@ -59,24 +61,24 @@ msgstr ""
 #. module: excel_import_export_unidecode
 #: model:ir.model,name:excel_import_export_unidecode.model_xlsx_template_export
 msgid "Detailed of how excel data will be exported"
-msgstr ""
+msgstr "Detalle de como se exportarán os datos de Excel"
 
 #. module: excel_import_export_unidecode
 #: model:ir.model,name:excel_import_export_unidecode.model_xlsx_export
 msgid "Excel Export AbstractModel"
-msgstr ""
+msgstr "ModeloAbstracto Exportación Excel"
 
 #. module: excel_import_export_unidecode
 #: model:ir.model,name:excel_import_export_unidecode.model_xlsx_template
 msgid "Excel template file and instruction"
-msgstr ""
+msgstr "Arquivo de modelo Excel e instrucións"
 
 #. module: excel_import_export_unidecode
 #: model:ir.model.fields,field_description:excel_import_export_unidecode.field_xlsx_export__smart_search
 #: model:ir.model.fields,field_description:excel_import_export_unidecode.field_xlsx_template__smart_search
 #: model:ir.model.fields,field_description:excel_import_export_unidecode.field_xlsx_template_export__smart_search
 msgid "Smart Search"
-msgstr ""
+msgstr "Procura Intelixente"
 
 #. module: excel_import_export_unidecode
 #: model:ir.model.fields,help:excel_import_export_unidecode.field_xlsx_export__count_pending_changeset_changes
@@ -102,7 +104,7 @@ msgstr ""
 #. module: excel_import_export_unidecode
 #: model:ir.model.fields,field_description:excel_import_export_unidecode.field_xlsx_template_export__is_unidecode
 msgid "Unidecode"
-msgstr ""
+msgstr "Descodificación"
 
 #. module: excel_import_export_unidecode
 #: model:ir.model.fields,field_description:excel_import_export_unidecode.field_xlsx_export__user_can_see_changeset
